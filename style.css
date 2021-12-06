@@ -46,3 +46,11 @@ img {
     width: 100%;
     height: auto;
 }
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    
+}
