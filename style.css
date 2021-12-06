@@ -117,11 +117,12 @@ nav ul li a:hover{
        display: none;
     }
 
-    .showmenu {
+    .showMenu {
         display: block;
-        display: block;
+
     }
     nav ul li {
+        display: block;
         padding: 2% 0;
     }
     nav ul li a{
