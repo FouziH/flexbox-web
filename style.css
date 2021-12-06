@@ -83,6 +83,9 @@ nav {
     display:  flex;
     justify-content: space-between;
 }
+nav box-icon{
+    display: none;
+}
 
 nav ul {
   list-style-type: none;
