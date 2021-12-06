@@ -100,7 +100,7 @@ nav ul li a:hover{
     transition: .5s ease-out;
 }
 
-@media  only screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     nav{
         flex-direction: column;
         position: relative;
@@ -110,6 +110,23 @@ nav ul li a:hover{
         position: absolute;
         top: 18px;
         right: 32px;
+        color: white;
     }
+    nav ul {
+       background-color: whitesmoke;
+       display: none;
+    }
+
+    .showmenu {
+        display: block;
+        display: block;
+    }
+    nav ul li {
+        padding: 2% 0;
+    }
+    nav ul li a{
+        color: #222;
+    }
+
 }
 
