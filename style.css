@@ -78,6 +78,8 @@ header {
 }
 
 nav {
-    
+    padding: 2% 8%;
+    display:  flex;
+    justify-content: space-between;
 }
 
