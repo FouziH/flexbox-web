@@ -139,6 +139,16 @@ input {
     }
 
 
+    /* about Section */
+
+    .about-left, .about-middle, .about-right {
+        flex-basis: 30%;
+        padding: 1.6rem;
+    }
+    .btn {
+        
+    }
+
 
 
 
