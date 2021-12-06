@@ -76,6 +76,7 @@ header {
     font-size: 3.2rem;
     color: #4CAF50;
     margin: 0;
+ 
 }
 
 nav {
@@ -144,12 +145,15 @@ input {
     .about-left, .about-middle, .about-right {
         flex-basis: 30%;
         padding: 1.6rem;
+    
+      
     }
     .btn {
         background-color:  #4CAF50 ;
         color: whitesmoke;
-        padding: 14px 20px;
-        margin: 8px 0;
+        padding: 8px 16px;
+        display: inline-block;
+        margin: 2rem 0;
         border: none;
         border-radius: 4px;
         cursor: pointer;
