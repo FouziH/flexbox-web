@@ -130,6 +130,12 @@ input {
         margin: 8px 0;
         border: none;
         border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    input::placeholder {
+        font-size: 1.3rem;
+        color: #ccc;
     }
 
 
