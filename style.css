@@ -332,9 +332,10 @@ footer {
     line-height: 80px;
     text-align: center;
 }
-p{
+/* .footer-p-tag{
     text-align: justify;
-}
+    align-content: center;
+} */
 
 
 
