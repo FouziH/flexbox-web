@@ -99,6 +99,30 @@ nav ul li a:hover {
     color: #4CAF50;
     transition: .5s ease-in-out;
 }
+  nav ul li .login {
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    color: black;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+nav ul li .sign-up {
+     width: 100%;
+    background-color: #6b0f1a;
+    color: #fff;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+  
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
 
 .header-content {
     width: 50%;
@@ -352,8 +376,42 @@ p{
     }
   
     nav ul li a:hover {
-       background-color: red;
+       background-color: #ccc;
     }
+    nav ul li .sign-up {
+     width: 30%;
+    background-color: #6b0f1a;
+    color: #fff;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+  
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+nav ul li .login {
+     width: 30%;
+    background-color: #ccc;
+    color: black;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+  
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+nav ul li .login:hover{
+    color: whitesmoke;
+
+}
+nav ul li .sign-up:hover{
+    color: black;
+}
+
 
     /* header content */
     .header-content{
