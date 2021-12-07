@@ -63,7 +63,7 @@ section {
 /* Hero Section */
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('images/bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('./img/img.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -270,8 +270,11 @@ input::placeholder {
 
 
 /* Contact */
+
 .contact .row {
     justify-content: center;
+    
+    
 }
 
 .contact form {
@@ -305,6 +308,9 @@ footer {
     line-height: 80px;
     text-align: center;
 }
+p{
+    text-align: justify;
+}
 
 
 
@@ -332,7 +338,7 @@ footer {
         display: none;
     }
 
-    .showmenu {
+    .showMenu {
         display: block;
     }
 
@@ -343,6 +349,9 @@ footer {
 
     nav ul li a {
         color: #222;
+    }
+    nav ul li a:hover {
+        color: #4CAF50;
     }
 
     /* header content */
